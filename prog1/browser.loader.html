@@ -1,0 +1,11 @@
+<html>
+    <body>Hello there, I'm just running some Javascript to load a WASM</body>
+    <script>
+        debugger;
+        WebAssembly.instantiateStreaming(fetch('myfirst.wasm'))
+            .then(result => {
+                console.log(result.instance.exports.main());
+                
+            })
+    </script>
+</html>

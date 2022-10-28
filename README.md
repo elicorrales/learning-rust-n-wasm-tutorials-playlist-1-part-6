@@ -1,1 +1,6 @@
-# learning-rust-n-wasm-tutorials-playlist-1-part-6
+# Setup To Debug
+
+To compile the ```myfirst.wat``` file,  
+```
+wat2wasm myfirst.wat
+```
