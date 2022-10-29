@@ -1,5 +1,7 @@
 # Setup To Debug
 
+See [Here](https://github.com/elicorrales/learning-rust-n-wasm-tutorials/blob/main/README.md) for the overall document that refers to all the series.  
+## Install Wasmedge  
 ### To compile the ```myfirst.wat``` file,  
 ```
 wat2wasm myfirst.wat
@@ -12,3 +14,4 @@ python3 -m http.server
 ```
   
 Then open a browser and open up its developer tools pane or window.
+
